@@ -15,6 +15,14 @@ h3 {
   font-size: 3rem;
 }
 
+button {
+  padding: 1.3rem 2rem;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+  border-color: azure;
+}
+
 #green {
   background-color: green;
 }
