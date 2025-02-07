@@ -23,6 +23,10 @@ button {
   border-color: azure;
 }
 
+button:hover {
+  filter: grayscale(0.3);
+}
+
 #green {
   background-color: green;
 }
