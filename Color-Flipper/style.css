@@ -11,6 +11,10 @@ body {
   height: 90vh;
 }
 
+h3 {
+  font-size: 3rem;
+}
+
 #green {
   background-color: green;
 }
