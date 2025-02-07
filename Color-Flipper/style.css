@@ -24,3 +24,8 @@ body {
 #random {
   background-color: lightgrey;
 }
+
+body {
+  align-items: center;
+  justify-content: center;
+}
