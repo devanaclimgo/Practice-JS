@@ -11,3 +11,12 @@ const quotes = [
   "If life were predictable it would cease to be life, and be without flavor.",
   "The whole secret of a successful life is to find out what is one's destiny to do, and then do it."
 ]
+
+const usedIndexes = new Set()
+const quoteElement = document.getElementById("quote")
+
+function generateQuote() {
+  const randomIdx = Math.floor(Math.random() * quotes.length)
+  const quote = quotes[randomIdx]
+  quoteElement.innerHTML = quote
+}
