@@ -4,6 +4,15 @@ const itemsDiv = document.getElementById("items")
 const input = document.getElementById("itemInput")
 const storageKey = "items"
 
+function clickEnter() {
+  input.addEventListener("keyup", function(event) {
+    event.preventDefault()
+    if (event.keyCode === 13) {
+      document.getElementById("button").click()
+    }
+  })
+}
+
 function renderItems() {
   itemsDiv.innerHTML = null
 
